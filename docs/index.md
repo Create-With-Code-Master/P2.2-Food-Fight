@@ -4,7 +4,7 @@ layout: tabbed-assignment
 
 # Overview
 
-<img class="overview-image" src="assets/images/screen-capture.png">
+<img class="overview-image" src="https://connect-prd-cdn.unity.com/20190423/learn/images/1e357da2-5a2b-4a5c-8fa6-5e6816baf2a4_2_2_full.png">
 
 Describe what students will be doing and provide, or expand upon, the assignment outcome.
 
