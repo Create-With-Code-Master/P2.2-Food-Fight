@@ -17,7 +17,15 @@ This template is the boilerplate for a single Canvas assignment.
 1. Edit ```docs/_data/assignment.yml``` to reflect the parameters of this assignment. Custom values may be added, they can be referenced in [Liquid][] code as ```site.data.assignments.valueName```.
    - If an **outcome** is set, the text will be displayed above the tabs.
 1. Edit ```docs/_data/tabs.yml``` to change the names (or number) of the tabs and/or the file they refer to.
-1. The [Canvas Template][canvas-template] can be overridden by creating a parallel file in the [docs](docs) folder.
+1. The [Canvas Theme][canvas-theme] can be overridden by creating a parallel file in the [docs](docs) folder.
 
-[canvas-template]: <>
+[canvas-theme]: <https://github.com/DouglasUrner/canvas>
 [liquid]: <https://shopify.github.io/liquid/>
+
+## Updating From The Template Repository
+
+In a terminal window, run the commands:
+
+1. git remote add template [_URL of your repo_] # One time.
+1. git fetch --all
+1. git merge template/[_branch to merge_] --allow-unrelated-histories
